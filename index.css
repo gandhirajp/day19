@@ -1,0 +1,56 @@
+
+
+/* board */
+.board{
+    width: 400px;
+    border-radius: 20px;
+    left: 40%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   position: absolute;
+    text-align: center ;
+    
+
+}
+.heading{
+    background-color: rgb(9, 255, 0);
+    border-radius: 20px;
+    height: 50px;
+}
+.bot{
+    background-color: black;
+    height: 450px;
+    border-radius: 20px;
+}
+
+/* body{
+    background-image: linear-gradient(to right, #7b4397, #dc2430);
+  
+} */
+h1{
+    font-family :Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input  {
+    width:280px;
+	margin: 0 auto;
+    font-size: 2.5em;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+
+
+}
+.btn btn-primary rounded-circle{
+
+}
+#result{
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(0, 255, 13);
+    
+}

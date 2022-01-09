@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="board mt-lg-5 ml-xl-n5" >
+        <!-- heading -->
+        <div class="heading">
+            <h1 style="text-align: center;">Calculator</h1>
+        </div>
+        <div class="bot">
+            <!-- input -->
+
+            <div class="input mt-lg-5">
+                <input type="text" id="number1">
+                <input type="text" id="number2">
+            </div>
+            <br>
+            <div class="btnback">
+                <button id="plusButton" class="btn btn-primary rounded-circle">+</button>
+                <button id="minusButton" class="btn btn-primary rounded-circle">-</button>
+                <button id="multiplyButton" class="btn btn-primary rounded-circle">x</button>
+                <button id="divisionButton" class="btn btn-primary rounded-circle">/</button>
+                <button id="modulusButton" class="btn btn-primary rounded-circle">%</button>
+            </div>
+
+            <p id="result" class="final mt-5"></p>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
